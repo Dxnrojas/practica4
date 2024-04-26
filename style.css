@@ -2,20 +2,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
 #personajes {
-    /* Complete el CSS aqui */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    max-width: 800px;
 }
 
 .personaje {
-/* Complete el CSS aqui */
+    width: 200px;
+    margin: 1rem;
+    border: 1px solid rgb(185, 185, 185);
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .personaje__nombre {
-/* Complete el CSS aqui */
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgb(130, 16, 16);
 }
 
 .personaje__imagen {
-/* Complete el CSS aqui */
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin: 10px; /* Margen entre la imagen y la tarjeta */
 }
